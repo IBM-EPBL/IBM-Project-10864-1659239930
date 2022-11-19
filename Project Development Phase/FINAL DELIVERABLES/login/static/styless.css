@@ -1,0 +1,99 @@
+/* Store this code in 'style.css' file inside the 'static' folder*/
+/*html {
+    height: 100%;
+  }
+body{
+    height: 100%;
+    width: 100%;
+}*/
+/** {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+}*/
+/*body{
+    margin: 0%;
+    overflow: hidden; 
+}*/
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    
+}
+    
+.header{
+    /* padding: 5px 120px; */
+    width: 150px;
+    height: 70px;
+    /* background-color: #236B8E; */
+}
+
+.border{
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    /* border: 1px solid #236B8E; */
+    border-radius: 0px;
+    /* background-color: #9AC0CD; */
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: #236B8E;
+    color: #FFFFFF;
+    font-style:Montserrat ;
+    font-weight: bold;
+    border-radius: 10px;
+} */
+
+/* 
+.textbox{
+    padding: 10px 40px;
+    background-color: #236B8E;
+    text-color: #FFFFFF;
+    border-radius: 10px;
+} */
+    
+::placeholder {
+    color: #ffffff;
+    opacity: 1;
+    font-style: Montserrat;
+    font-weight: bold;
+}
+
+.word{
+    color: #010306;
+    font-style: Montserrat;
+    font-weight: bold;
+}
+/* 
+.bottom{
+    color: #236B8E;
+    font-style: Montserrat;
+    font-weight: bold;
+} */
+
+.bg{
+    height: 753px;
+    width: 1536px;
+    background-image: url("./pics/pexels-nur-andi-ravsanjani-gusma-1465904.jpg");
+    background-size: cover;
+    min-height: 380px;
+  background-repeat: no-repeat;
+  overflow: hidden; 
+}
+
+.logbg{
+    height: 753px;
+    width: 1536px;
+    background-image: url("./pics/249456.jpg");
+    background-size: cover; 
+}
+.logg{
+   position:fixed;
+   right:10px;
+   top:5px;
+}
